@@ -6,37 +6,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/dd8ca4d5e5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="banner">
-      <div class="navbar">
-        
-        <a href="index.html"><script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-            <lord-icon
+    <section class="Header">
+      <nav>
+        <a href="index.html"
+          ><script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+          <lord-icon
             src="https://cdn.lordicon.com/efdhjqgx.json"
             trigger="hover"
             colors="primary:#16a9c7,secondary:#b4b4b4"
             stroke="55"
-            style="width: 200px; height: 200px"
-          >
-            </lord-icon>
-         </a>
+            style="width: 200px; height: 150px"
+          ></lord-icon>
+        </a>
 
-         <ul>
-            <li><a href="">HOME</a></a></li>
-            <li><a href="">ABOUT </a></a></li>
-            <li><a href="">BLOG </a></a></li>
-            <li><a href="">CONTACT </a></a></li>
-            </ul>
-      </div>
+        <div class="navbar" id="navLinks">
+          <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
 
-      <div class="content">
-        <h1>Saishen Pillay</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eaque.</p>
-      <div>
-<button type="button"><span></span>WATCH MORE</button>
-<button type="button"><span></span>WATCH MORE</button>
-      </div>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">BLOG </a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </section>
+
+    <div class="content">
+      <h1>Saishen Pillay</h1>
+      <p>
+        "Whatever the universal nature assigns to any man at any time is for the
+        good of that man at that time"
+      </p>
+      <button
+        onclick="window.location.href='https://github.com/SaishenP';"
+        target="_blank"
+        type="button"
+
+      ><span></span>GITHUB
+      </button>
+      <button type="button"><span></span>Instagram</button>
     </div>
+
+    <section class="interest">
+      <h1>INTERESTS</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+        vitae repudiandae voluptas officiis! Reiciendis exercitationem sint at
+        pariatur tempora voluptatum quaerat magnam? Expedita veritatis nesciunt
+        corrupti repellat. Cupiditate, quos illo.
+      </p>
+
+      <div class="row">
+        <div class="interest-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            dolorem ad. Autem sit incidunt, dicta voluptatem, accusamus ipsa
+            eaque voluptate laboriosam optio deserunt assumenda aliquid dolorem
+            eius velit modi corporis.
+          </p>
+        </div>
+        <div class="interest-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            dolorem ad. Autem sit incidunt, dicta voluptatem, accusamus ipsa
+            eaque voluptate laboriosam optio deserunt assumenda aliquid dolorem
+            eius velit modi corporis.
+          </p>
+        </div>
+        <div class="interest-col">
+          <h3>Post Grauadtion</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            dolorem ad. Autem sit incidunt, dicta voluptatem, accusamus ipsa
+            eaque voluptate laboriosam optio deserunt assumenda aliquid dolorem
+            eius velit modi corporis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Skills-->
+    <section class="projects">
+      <h1>Projects</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum molestiae
+        explicabo soluta aliquid magnam dignissimos natus laboriosam blanditiis
+        optio fugit voluptate recusandae, mollitia magni! Dolorem dicta ipsa
+        eius tempore quod.
+      </p>
+
+      <div class="row">
+        <div class="projects-col">
+          <img src="images/Clouds.jpg" />
+          <div class="layer">
+            <h3>Mountains</h3>
+          </div>
+        </div>
+      <div class="projects-col">
+        <img src="images/forest.jpg" />
+        <div class="layer">
+          <h3>Forest</h3>
+        </div>
+      </div>
+      <div class="projects-col">
+        <img src="images/Ocean.jpg" />
+        <div class="layer">
+          <h3>OCEAN</h3>
+          
+    </section>
+
+    <!-----Projects-->
+
+    <section class="skils">
+      <h1>Skills</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Voluptate, eveniet!</p>
+
+         <div class="row">
+
+          <div class="skils-col">
+            <img src="images/Space.jpg">
+            <h3>Skill</h3>
+            <p>Lorem ipsum dolor 
+              sit amet consectetur adipisicing elit. Adipisci, repellat!</p>
+          </div>
+          <div class="skils-col">
+            <img src="images/City.jpg">
+            <h3>Skill</h3>
+            <p>Lorem ipsum dolor 
+              sit amet consectetur adipisicing elit. Adipisci, repellat!</p>
+          </div>
+          <div class="skils-col">
+            <img src="images/Hill.jpg">
+            <h3>Skill</h3>
+            <p>Lorem ipsum dolor 
+              sit amet consectetur adipisicing elit. Adipisci, repellat!</p>
+          </div>
+         </div>
+    </section>
+
+    <!----Call to Action-->
+
+    <section class="CTA">
+      <h1>This is not the End of Things </h1>
+      <button
+      onclick="window.location.href='https://github.com/SaishenP';"
+      target="_blank"
+      type="button"
+
+    ><span></span>SAISHEN PILLAY
+    </button>
+    </section>
+
+
+
+    <!---JaveScript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
